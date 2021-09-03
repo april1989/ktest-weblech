@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="weblech">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/weblech.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
