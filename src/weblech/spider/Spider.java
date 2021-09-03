@@ -84,6 +84,10 @@ public class Spider extends Logger implements Runnable, Constants
         quit = false;
         running = 0;
 
+        if(queue == null) {
+            queue = new DownloadQueue(config);
+        }
+
         for(int i = 0; i < config.getSpiderThreads(); i++)
         {
             _logClass.info("Starting Spider thread");
