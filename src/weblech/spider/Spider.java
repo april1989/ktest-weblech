@@ -116,7 +116,7 @@ public class Spider extends Logger implements Runnable, Constants
             
                 if(System.currentTimeMillis() - lastCheckpoint > config.getCheckpointInterval())
                 {
-                    writeCheckpoint();
+                    //writeCheckpoint();
                     lastCheckpoint = System.currentTimeMillis();
                 }
             }

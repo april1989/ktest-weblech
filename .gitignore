@@ -4,3 +4,4 @@ wala.testdata_*
 weblech.jar
 .DS_Store
 /src/.DS_Store
+/out/*

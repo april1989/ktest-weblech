@@ -1,4 +1,4 @@
-name: weblech-0.0.3
+name: ktest-weblech
 branches: [ master ]
 build:
     runs_on: java1.8
